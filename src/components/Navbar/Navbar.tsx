@@ -214,7 +214,7 @@ const Navbar = () => {
       <div className="hidden lg:block">
         <LogoDesktop />
         <div className="border-t border-black">
-          <div className="mx-auto flex max-w-[1600px] items-center justify-between px-6 py-3">
+          <div className="mx-auto flex max-w-[1600px] items-center justify-between px-6 py-5">
             <button
               className="inline-flex items-center gap-2 text-black hover:text-neutral-700"
               onClick={() => setSidebarOpen(true)}
