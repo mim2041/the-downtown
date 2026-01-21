@@ -10,15 +10,15 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default function FollowUs() {
   return (
-    <div className="w-full bg-white p-5 border border-gray-50">
+    <div className="w-full bg-white p-6 border border-gray-50">
       {/* Title */}
       <h3 className="text-lg font-semibold text-gray-900">
         Follow Us
       </h3>
 
       {/* Divider */}
-      <div className="relative mt-2 mb-6 h-px bg-gray-200">
-        <span className="absolute left-0 top-0 h-px w-10 bg-black"></span>
+      <div className="relative mt-2 mb-6 h-0.5 bg-gray-200">
+        <span className="absolute left-0 top-0 h-0.5 w-12 bg-black"></span>
       </div>
 
       {/* Items */}
