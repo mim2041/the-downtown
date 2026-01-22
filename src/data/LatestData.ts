@@ -3,7 +3,7 @@ import img2 from "@/src/assets/images/img2.jpg";
 import img3 from "@/src/assets/images/img3.jpg";
 import img4 from "@/src/assets/images/img4.jpg";
 
-export const recommendedData = [
+export const latestData = [
     {
         id: 1,
         title: "Tour showcases shared art history of Indonesia and Singapore",
@@ -28,4 +28,10 @@ export const recommendedData = [
         image: img4,
         link: "#",
     },
+    {
+        id: 5,
+        title: "Garuda Operates larger planes for Jakarta-Palembang Route",
+        image: img1,
+        link: "#",
+    }
 ];
