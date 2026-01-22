@@ -1,12 +1,13 @@
-import img1 from "@/src/assets/images/img1.jpg";
+import img1 from "@/src/assets/images/img10.jpg";
 import img2 from "@/src/assets/images/img2.jpg";
-import img3 from "@/src/assets/images/img3.jpg";
+import img3 from "@/src/assets/images/img11.jpg";
 import img4 from "@/src/assets/images/img4.jpg";
+import img5 from "@/src/assets/images/img1.jpg";
 
 export const latestData = [
     {
         id: 1,
-        title: "Tour showcases shared art history of Indonesia and Singapore",
+        title: "Unconventional Workouts That Torch Fat And Sculpt Muscle",
         image: img1,
         link: "#",
     },
@@ -18,7 +19,7 @@ export const latestData = [
     },
     {
         id: 3,
-        title: "Jokowi supporters try to prevent anti-Jokowi activist from entering Batam",
+        title: "President Joko “Jokowi” Widodo Refuses to Sign MD3 Law",
         image: img3,
         link: "#",
     },
@@ -31,7 +32,7 @@ export const latestData = [
     {
         id: 5,
         title: "Garuda Operates larger planes for Jakarta-Palembang Route",
-        image: img1,
+        image: img5,
         link: "#",
     }
 ];

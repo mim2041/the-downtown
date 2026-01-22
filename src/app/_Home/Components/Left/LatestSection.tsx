@@ -7,7 +7,9 @@ const Latest = () => {
         <div className=''>
             <LeftSection title="Latest" data={latestData} children={(item) => (
                 <div key={item.id} className="flex items-center gap-3">
-                <img src={item.image.src} alt={item.title} className="w-1/2 h-1/2 object-cover" />
+                <div className="w-[220px] h-[80px] ">
+                    <img src={item.image.src} alt={item.title} className="h-full w-full object-cover" />
+                </div>
                 <h2 className=" font-bold ">{item.title}</h2>
             </div>
             )} />

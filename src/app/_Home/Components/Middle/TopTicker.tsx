@@ -58,9 +58,9 @@ export default function TopTicker({
                   <img
                     src={it.image.src}
                     alt={it.title}
-                    className="h-12 w-12 shrink-0 object-cover"
+                    className="h-16 w-16 shrink-0 object-cover"
                   />
-                  <p className="text-[11px] font-semibold leading-snug text-gray-900">
+                  <p className="text-[12px] font-semibold leading-snug text-gray-900">
                     {it.title}
                   </p>
                 </div>

@@ -87,7 +87,7 @@ function IconChevronDown(props: React.SVGProps<SVGSVGElement>) {
 function LogoDesktop() {
   return (
     <div className="py-8 flex justify-center items-center ">
-      <h1 className="text-center font-bold uppercase text-4xl tracking-wide">
+      <h1 className="text-center font-bold uppercase text-4xl tracking-wide font-roboto-condensed">
         The Downtown
       </h1>
     </div>
@@ -99,12 +99,12 @@ function LogoMobile() {
     <div className="leading-none">
       <div className="flex items-center justify-center gap-2">
         <div className="w-14 h-1 bg-black" />
-        <p className="text-center font-bold uppercase text-lg tracking-wide">
+        <p className="text-center font-bold uppercase text-lg tracking-wide font-roboto-condensed">
           The
         </p>
         <div className="w-14 h-1 bg-black" />
       </div>
-      <p className="text-center font-bold uppercase text-2xl -mt-1 tracking-wide">
+      <p className="text-center font-bold uppercase text-2xl -mt-1 tracking-wide font-roboto-condensed">
         Downtown
       </p>
     </div>
